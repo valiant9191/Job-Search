@@ -1,0 +1,12 @@
+.link {
+    width: fit-content;
+    text-decoration: none;
+}
+
+.link button {
+    color: #232134;
+}
+
+.active button {
+    color: #5E96FC;
+}
