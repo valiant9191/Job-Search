@@ -1,3 +1,3 @@
-import { useFetchToken } from "./useFetch";
+import { useFetchToken } from "./useFetchToken";
 
 export { useFetchToken };
