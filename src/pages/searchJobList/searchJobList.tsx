@@ -14,7 +14,7 @@ function SearchJobList() {
 
     return (
         <Container className={styles.container} >
-            <Box p='2rem' mx="auto" mt='1.2rem'>
+            <Box w='50%' p='2rem' mx="auto" mt='1.2rem'>
                 <form className={styles.form} onSubmit={form.onSubmit((values) => console.log(values))}>
                     <Flex className={styles.search} >
                         <Input

@@ -1,10 +1,10 @@
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom';
 import { useFetchToken } from 'hooks';
-import { Favorites } from 'components/pages/favorites';
-import { Error } from 'components/pages/error';
-import { SearchJobItem } from 'components/pages/searchJobItem';
-import { SearchJobList } from 'components/pages/searchJobList';
+import { Error } from './pages/error';
+import { Favorites } from './pages/favorites';
+import { SearchJobItem } from './pages/searchJobItem';
+import { SearchJobList } from './pages/searchJobList';
 import { HeaderComponent } from './components/headerComponent'
 import styles from './App.module.css';
 
@@ -19,7 +19,9 @@ function App() {
   if (!localStorage.access_token) {
     getData()
   }
-  console.log(JSON.parse(localStorage.access_token).access_token)
+  // console.log(JSON.parse(localStorage.access_token).access_token)
+
+
 
 
   return (
