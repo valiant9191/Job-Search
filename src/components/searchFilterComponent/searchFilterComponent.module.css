@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffffff;
+    width: 315px;
+    height: 360px;
+    border-radius: 5px;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+.textGroupMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textReset {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.filterItem :nth-child(1) {
+    padding-bottom: 8px;
+}
+
+.submitBtn {
+    height: 2.5rem;
+}
